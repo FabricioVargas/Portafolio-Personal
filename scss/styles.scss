@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+.nav{
+    border: 1px solid #808080;
+    box-shadow: 5px 5px 5px rgba(25,0,0,25);
+    background: #040815;
+    color:white;
+
+    &__link{
+    font-size: 20px;
+    color: white !important;
+
+    &--title{
+    font-size: 24px;
+    }
+
+    &:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    }
+}
+.presentation{
+    background: url(../img/code-1839406_640.jpg);
+    background-attachment: fixed;/* ancla la imagen a la pantalla*/
+    background-repeat: no-repeat;
+    background-size: cover;  /* la imagen se encaja en la pantalla*/
+    margin: 2%;
+
+    &__backgroud{
+    background: rgba(254, 242, 239,.7);
+    }
+
+    &__paragraph{
+    font-size: 24px;
+    font-weight: bold;
+    color: #040815;
+    }
+
+    &__buttom{
+    background: rgb(39, 60, 117);
+    --color:white;--hover:#000;
+    color:var(--color);transition:.25s;
+
+    &:hover{
+    border-color:var(--hover);color:white;
+    box-shadow:0 .5em .5em -.4em var(--hover);-webkit-transform:translateY(-.25em);transform:translateY(-.25em);
+    }
+
+    &:focus{
+    border-color:var(--hover);color:white;
+    box-shadow:0 .5em .5em -.4em var(--hover);-webkit-transform:translateY(-.25em);transform:translateY(-.25em);
+    }
+    }
+
+    &__img{
+    display: block;
+    margin: auto;
+    height: 325px; 
+    width: auto;  
+    border-radius: 1em;
+    }
+}
+.h1{
+    color: rgb(39, 60, 117);
+    font-weight: bold;
+}
+/*-----------------Body---------------*/
+
+.projects{
+    background: rgba(0, 184, 139,.3);
+    margin: 2%;
+
+    &__img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    padding: 3%;
+    }
+}
+.h2{
+    color: rgb(39, 60, 117);
+    font-weight: bold;
+}
+
+.text__paragraph{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*--------------------Education----------------*/
+
+.education{
+    margin: 2%;
+
+    &__img{
+    width: auto;
+    height: 150px;
+    }
+
+    &__paragraph{
+    font-size: 17px;
+    font-weight: bold;
+    }
+}
+
+.img{
+    &__CNI{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    padding: 5%;
+    }
+
+    &__UCI{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    }
+
+    &__profile{
+    height: auto;
+    width: 270px;
+    align-items: center;
+    margin: 5%;
+    }
+}
+.card{
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+
+    &:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+    }
+}
+/*------------AboutMe----------------*/
+.about{
+    background: rgba(39, 60, 117,.9);
+    margin: 2%;
+}
+/*------------Contact---------------*/
+
+.contact{
+    margin: 2%;
+
+    &__link{
+    color: black;
+    }
+}
+.icon__size{
+    font-size: 60px;
+}
+
+
+/*--------------------footer-----------------------*/
+.footer{
+    box-shadow: 5px 5px 5px rgba(25,0,0,25);
+    background: #030510;
+    height: 80px;
+    width: 100%;
+    color: white;
+
+    &__copyright{
+    font-size: 17px;
+    }
+
+    &__buttom{
+    background: rgba(0, 210, 255, 0.24) !important;
+    border: 2px solid #119AB7 !important;        width: 180px;
+    height: 50px;
+    color: white;
+    }
+}
+
+
+
+

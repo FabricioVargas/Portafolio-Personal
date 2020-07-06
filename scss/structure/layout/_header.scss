@@ -1,0 +1,45 @@
+.presentation{
+    background: url(../img/code-1839406_640.jpg);
+    background-attachment: fixed;/* ancla la imagen a la pantalla*/
+    background-repeat: no-repeat;
+    background-size: cover;  /* la imagen se encaja en la pantalla*/
+    margin: 2%;
+
+    &__backgroud{
+    background: rgba(254, 242, 239,.7);
+    }
+
+    &__paragraph{
+    font-size: 24px;
+    font-weight: bold;
+    color: #040815;
+    }
+
+    &__buttom{
+    background: rgb(39, 60, 117);
+    --color:white;--hover:#000;
+    color:var(--color);transition:.25s;
+
+    &:hover{
+    border-color:var(--hover);color:white;
+    box-shadow:0 .5em .5em -.4em var(--hover);-webkit-transform:translateY(-.25em);transform:translateY(-.25em);
+    }
+
+    &:focus{
+    border-color:var(--hover);color:white;
+    box-shadow:0 .5em .5em -.4em var(--hover);-webkit-transform:translateY(-.25em);transform:translateY(-.25em);
+    }
+    }
+
+    &__img{
+    display: block;
+    margin: auto;
+    height: 325px; 
+    width: auto;  
+    border-radius: 1em;
+    }
+}
+.h1{
+    color: rgb(39, 60, 117);
+    font-weight: bold;
+}
